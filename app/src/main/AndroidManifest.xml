@@ -10,10 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ProjectPemrogramanMobile_Kelompok6"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name=".splashscreen"
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

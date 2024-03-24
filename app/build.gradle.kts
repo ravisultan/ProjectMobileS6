@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.projectpemrogramanmobile_kelompok6"
+    namespace = "com.example.projectmobile"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.projectpemrogramanmobile_kelompok6"
+        applicationId = "com.example.projectmobile"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -34,7 +34,7 @@ android {
 dependencies {
 
     implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("com.google.android.material:material:1.11.0")
+    implementation("com.google.android.material:material:1.8.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

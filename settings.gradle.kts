@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Project Pemrograman Mobile_Kelompok 6"
+rootProject.name = "ProjectMobile"
 include(":app")
  
