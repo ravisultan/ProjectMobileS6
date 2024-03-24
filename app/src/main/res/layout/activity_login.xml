@@ -75,6 +75,7 @@
         android:layout_marginRight="@dimen/activity_horizontal_margin"
         android:background="@color/edt"
         android:hint="Masukkan Password"
+        android:password="true"
         android:paddingTop="5dp"
         android:paddingLeft="15dp"
         android:paddingRight="5dp"

@@ -6,8 +6,11 @@ import android.os.Bundle;
 import android.window.SplashScreen;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.projectmobile.R;
+
 public class MainActivity extends AppCompatActivity {
-    private int waktu_loading=4000;
+    private int waktu_loading=3000;
     //4000=4 detik
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent home=new Intent(MainActivity.this, SplashScreen.class);
+                Intent home=new Intent(MainActivity.this, splashscreen.class);
                 startActivity(home);
                 finish();
             }
