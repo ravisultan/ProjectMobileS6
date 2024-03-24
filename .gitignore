@@ -3,8 +3,10 @@
 /local.properties
 /.idea/caches
 /.idea/libraries
+/.idea/names
 /.idea/modules.xml
 /.idea/workspace.xml
+/.idea/vcs.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
